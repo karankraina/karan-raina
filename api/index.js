@@ -1,14 +1,14 @@
 import Fastify from 'fastify';
 import fs from 'node:fs';
 
+const html = fs.readFileSync('profile.html', { encoding: 'utf-8' })
+
 const app = Fastify({
   logger: false,
 })
 
 app.get('/', async (req, reply) => {
-  reply.status = 200;
-  reply.type = 'text/html';
-  return fs.createReadStream('profile.html');
+  reply.status(200).type('text/html').send(html)
 })
 
 export default async function handler(req, reply) {

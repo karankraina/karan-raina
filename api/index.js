@@ -113,6 +113,7 @@ const html = `
         .avatar {
             display: flex;
             justify-content: center;
+            height: 200px;
         }
 
         .avatar>img {

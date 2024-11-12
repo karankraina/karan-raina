@@ -1,7 +1,7 @@
 import Fastify from 'fastify';
 import fs from 'node:fs';
 
-const html = fs.readFileSync('profile.html', { encoding: 'utf-8' })
+const html = fs.readFileSync('./profile.html', { encoding: 'utf-8' })
 
 const app = Fastify({
   logger: false,

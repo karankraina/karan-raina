@@ -78,7 +78,7 @@ const html = `
 
         h1,
         h2 {
-            color: #333;
+            color: #fff;
         }
 
         h1 {
@@ -92,7 +92,7 @@ const html = `
         }
 
         a {
-            color: #0066cc;
+            color: #89bcef;
             text-decoration: none;
         }
 
@@ -203,22 +203,6 @@ const html = `
             </ul>
         </div>
 
-        <div class="section">
-            <h2>💻 Blog</h2>
-            <p>I sometimes write on <a href="https://karankraina.hashnode.dev" target="_blank">Hashnode</a>.</p>
-        </div>
-
-        <div class="section">
-            <h2>🌍 Let's Connect!</h2>
-            <ul class="list">
-                <li>📧 Email: <a href="mailto:karanraina1996@gmail.com">karanraina1996@gmail.com</a></li>
-                <li>📱 Phone: +91-9727093095</li>
-                <li>💼 LinkedIn: <a href="https://linkedin.com/in/karankraina" target="_blank">karankraina</a></li>
-                <li>🐦 Twitter: <a href="https://twitter.com/karankraina" target="_blank">@karankraina</a></li>
-                <li>👨‍💻 GitHub: <a href="https://github.com/karankraina" target="_blank">karankraina</a></li>
-                <li>📦 NPM: <a href="https://www.npmjs.com/~karankraina" target="_blank">karankraina</a></li>
-            </ul>
-        </div>
     </div>
 
     <div class="footer">

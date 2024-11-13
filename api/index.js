@@ -148,15 +148,9 @@ const html = `
 
     <div class="container">
         <section class="avatar">
-            <img src="https://pbs.twimg.com/profile_images/1854968905762324480/2WFTSh9P_400x400.jpg" alt="Karan Raina">
+            <img src="https://karankraina.github.io/karan-raina/avatar.jpg" alt="Karan Raina">
         </section>
-        <h1>👋 Hello, I'm Karan Raina</h1>
-        <p>🌟 <strong>A passionate full-stack web developer from India 🇮🇳</strong></p>
-        <p>💻 Currently working as a Senior Developer in the Theme Engine team at <a href="https://www.fynd.com"
-                target="_blank">Fynd</a></p>
-        <p>🏆 Award-winning engineer recognized for enhancing performance, scalability, and developer experience.</p>
-
-        <hr>
+        <h1 style="text-align: center">Karan Raina</h1>
 
         <div class="section">
             <h2>🚀 About Me</h2>
@@ -170,6 +164,8 @@ const html = `
                 my commitment to the developer community and continuous learning.</p>
             <p>I'm also a big fan of <strong>military aviation</strong>, <strong>defense forces</strong>, <strong>the
                     moon</strong>, <strong>mountains</strong>, and <strong>yemberzels</strong>. 🌌⛰️</p>
+
+                    <h2>👉<a href="https://karankraina.github.io/karan-raina/Karan_Raina.pdf" download><span> Get My Resume</span></a></h2>
         </div>
 
         <div class="section">
